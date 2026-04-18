@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_consulting_and_advisory1s",
+  "info": {
+    "displayName": "Consulting & Advisory1",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "listConsulting": {
+      "type": "component",
+      "component": "sections.list-consulting",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

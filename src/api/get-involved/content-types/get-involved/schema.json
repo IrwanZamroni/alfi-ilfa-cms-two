@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_involveds",
+  "info": {
+    "singularName": "get-involved",
+    "pluralName": "get-involveds",
+    "displayName": "GetInvolved"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GetInvoled": {
+      "type": "component",
+      "component": "sections.get-involved",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_article_names",
+  "info": {
+    "displayName": "ArticleName"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Published_Date": {
+      "type": "date"
+    },
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "Category": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

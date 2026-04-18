@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_tech_integration_guidances",
+  "info": {
+    "displayName": "Tech_Integration_Guidance",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "listTech": {
+      "type": "component",
+      "component": "sections.list-tech",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

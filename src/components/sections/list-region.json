@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_list_regions",
+  "info": {
+    "displayName": "listRegion",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "listRegion": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_list_consultings",
+  "info": {
+    "displayName": "listConsulting"
+  },
+  "options": {},
+  "attributes": {
+    "listConsulting": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

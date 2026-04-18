@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_list_teches",
+  "info": {
+    "displayName": "listTech",
+    "icon": "sun"
+  },
+  "options": {},
+  "attributes": {
+    "listTech": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

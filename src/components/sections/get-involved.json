@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_get_involveds",
+  "info": {
+    "displayName": "GetInvolved",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

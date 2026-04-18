@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

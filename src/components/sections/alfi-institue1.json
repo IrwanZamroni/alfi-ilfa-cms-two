@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_alfi_institue1s",
+  "info": {
+    "displayName": "AlfiInstitue1",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "component": "sections.list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

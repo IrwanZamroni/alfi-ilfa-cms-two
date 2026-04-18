@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "emotionUnhappy"
+  },
+  "options": {},
+  "attributes": {
+    "listName": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

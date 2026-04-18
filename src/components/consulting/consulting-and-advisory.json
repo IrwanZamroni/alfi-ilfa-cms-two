@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_consulting_consulting_and_advisories",
+  "info": {
+    "displayName": "Consulting & Advisory",
+    "icon": "car"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_service_cards",
+  "info": {
+    "singularName": "our-service-card",
+    "pluralName": "our-service-cards",
+    "displayName": "OurServiceCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titla": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "text"
+    }
+  }
+}
