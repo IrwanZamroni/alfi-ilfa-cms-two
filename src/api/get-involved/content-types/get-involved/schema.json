@@ -11,10 +11,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "GetInvoled": {
-      "type": "component",
-      "component": "sections.get-involved",
-      "repeatable": true
+    "Title": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

@@ -518,7 +518,7 @@ export interface ApiGetInvolvedGetInvolved extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    GetInvoled: Schema.Attribute.Component<'sections.get-involved', true>;
+    Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -526,6 +526,7 @@ export interface ApiGetInvolvedGetInvolved extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    Title: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -571,14 +572,12 @@ export interface ApiOurExpertiseOurExpertise
     draftAndPublish: true;
   };
   attributes: {
-    AlfiInstitue1: Schema.Attribute.Component<'sections.alfi-institue1', false>;
-    Consulting_Advisory_1: Schema.Attribute.Component<
-      'sections.consulting-and-advisory1',
-      false
-    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Description: Schema.Attribute.Blocks;
+    Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    ListName: Schema.Attribute.Component<'sections.list-name', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -586,14 +585,7 @@ export interface ApiOurExpertiseOurExpertise
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    Region_We_Cover: Schema.Attribute.Component<
-      'consulting.region-we-cover',
-      false
-    >;
-    Tech_Integration_Guidance: Schema.Attribute.Component<
-      'sections.tech-integration-guidance',
-      false
-    >;
+    Title: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -616,7 +608,6 @@ export interface ApiOurServiceCardOurServiceCard
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     Description: Schema.Attribute.Text;
-    Icon: Schema.Attribute.Text;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -624,7 +615,7 @@ export interface ApiOurServiceCardOurServiceCard
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    Titla: Schema.Attribute.String;
+    Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -642,10 +633,10 @@ export interface ApiResourceResource extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    Card: Schema.Attribute.Component<'sections.card', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Description: Schema.Attribute.Blocks;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -653,6 +644,7 @@ export interface ApiResourceResource extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    Title: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

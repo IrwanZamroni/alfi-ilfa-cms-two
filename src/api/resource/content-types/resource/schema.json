@@ -11,10 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Card": {
-      "type": "component",
-      "component": "sections.card",
-      "repeatable": true
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "blocks"
     }
   }
 }

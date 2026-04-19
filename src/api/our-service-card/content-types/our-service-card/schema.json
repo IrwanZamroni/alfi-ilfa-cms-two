@@ -11,13 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titla": {
+    "Title": {
       "type": "string"
     },
     "Description": {
-      "type": "text"
-    },
-    "Icon": {
       "type": "text"
     }
   }

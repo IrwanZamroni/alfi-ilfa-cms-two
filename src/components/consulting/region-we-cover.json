@@ -16,6 +16,16 @@
       "type": "component",
       "component": "sections.list-region",
       "repeatable": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   },
   "config": {}

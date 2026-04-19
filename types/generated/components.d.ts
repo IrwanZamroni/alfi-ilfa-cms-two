@@ -21,6 +21,7 @@ export interface ConsultingRegionWeCover extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.RichText;
+    Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     listRegion: Schema.Attribute.Component<'sections.list-region', true>;
     Title: Schema.Attribute.String;
   };
@@ -46,6 +47,7 @@ export interface SectionsAlfiInstitue1 extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.RichText;
+    Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     list: Schema.Attribute.Component<'sections.list', true>;
     Title: Schema.Attribute.String;
   };
@@ -96,6 +98,7 @@ export interface SectionsConsultingAndAdvisory1 extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.RichText;
+    Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     listConsulting: Schema.Attribute.Component<
       'sections.list-consulting',
       true
@@ -140,6 +143,17 @@ export interface SectionsListConsulting extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsListName extends Struct.ComponentSchema {
+  collectionName: 'components_sections_list_names';
+  info: {
+    displayName: 'ListName';
+    icon: 'apps';
+  };
+  attributes: {
+    Text: Schema.Attribute.Text;
+  };
+}
+
 export interface SectionsListRegion extends Struct.ComponentSchema {
   collectionName: 'components_sections_list_regions';
   info: {
@@ -171,6 +185,10 @@ export interface SectionsTechIntegrationGuidance
   };
   attributes: {
     Description: Schema.Attribute.RichText;
+    Image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     listTech: Schema.Attribute.Component<'sections.list-tech', true>;
     Title: Schema.Attribute.String;
   };
@@ -190,6 +208,7 @@ declare module '@strapi/strapi' {
       'sections.get-involved': SectionsGetInvolved;
       'sections.list': SectionsList;
       'sections.list-consulting': SectionsListConsulting;
+      'sections.list-name': SectionsListName;
       'sections.list-region': SectionsListRegion;
       'sections.list-tech': SectionsListTech;
       'sections.tech-integration-guidance': SectionsTechIntegrationGuidance;

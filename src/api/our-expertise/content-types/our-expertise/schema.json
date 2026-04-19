@@ -11,25 +11,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AlfiInstitue1": {
-      "type": "component",
-      "component": "sections.alfi-institue1",
-      "repeatable": false
+    "Title": {
+      "type": "text"
     },
-    "Consulting_Advisory_1": {
-      "type": "component",
-      "component": "sections.consulting-and-advisory1",
-      "repeatable": false
+    "Description": {
+      "type": "blocks"
     },
-    "Tech_Integration_Guidance": {
+    "ListName": {
       "type": "component",
-      "component": "sections.tech-integration-guidance",
-      "repeatable": false
+      "component": "sections.list-name",
+      "repeatable": true
     },
-    "Region_We_Cover": {
-      "type": "component",
-      "component": "consulting.region-we-cover",
-      "repeatable": false
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

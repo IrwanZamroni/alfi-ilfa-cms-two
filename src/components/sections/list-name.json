@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_list_names",
+  "info": {
+    "displayName": "ListName",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
